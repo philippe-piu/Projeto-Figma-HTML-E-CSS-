@@ -1,0 +1,25 @@
+/*Corpo*/
+body{
+  background-color: black;
+  color:#F6F6F6;
+}
+
+strong{
+  color:#99111E;
+}
+
+img{
+  width: 450px;
+  height: 450px;
+  filter: grayscale(100%);
+  border-radius: 10%;
+}
+
+.buttonEsquerda{
+  color: black;
+  background-color: #99111E;
+  width: 110px;
+  height: 40px;
+  border-radius: 3%;
+  
+}
