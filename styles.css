@@ -2,7 +2,7 @@
 /*Krona One*/
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 /*Montserrat*/
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 /*Link do site https://fonts.google.com/ usado para procurar as fontes e importar*/
 
 /*Corpo*/
@@ -25,16 +25,20 @@ body{
 
 /*para utilização do Flex Box verificar essa documentação ela é bem simples de se entender: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .apresentacao{
-  margin:10%;
+  margin:10% 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+/*Quando está assim margin:10% 12%; o primeiro valor é de cima e embaixo e o segundo as laterais*/
 
 .apresentacao__conteudo{
-  height: 352px;
   width: 593px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
+/*Espaçamento entre as colunas*/
 
 .apresentacao__conteudo__titulo{
   font-size: 36px;
@@ -50,11 +54,32 @@ body{
   color:#99111E;
 }
 
+.apresentacao__links{
+  display:flex;
+  justify-content: space-between;
+}
+
+.apresentacao__links__link{
+  background-color: #22D4FD;
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color:#000000;
+  font-family: 'Montserrat', sans-serif;
+}
+/*padding: 21.5px 0; ele está me dando um espaçamento de cima e embaixo de 21.5 no fazendo o texto do botão ficar a uma distancia de cima e embaixo deste valo e 0 é pra informar que na laterais eu não quero este espaçamento.
+text-decoration: none; é para tirar aquela linha que fica no botão do link quando você passa o mouse em cima dela.
+text-align: center alinha somente o texto para o centro
+*/
 
 /*filter: grayscale(100%); ele deixa a imagem em preto e branco*/
 img{
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 420px;
   filter: grayscale(100%);
   border-radius: 10%;
 }
