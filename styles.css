@@ -1,25 +1,26 @@
 /*Corpo*/
+
+/* Dando um reset na margem e no preenchimento tirando aquela margem e preenchimento altomaticos ajuda a ter um controle melhor no posicionamento dos elementos na minha página */
+*{
+  margin:0;
+  padding: 0;
+}
+/*box-sizing: border-box ajuda o elemento filho a se manter sempre dentro do tamanho do elemento pai para melhor entendimento olhar está doumentação do css onde tem uma explicação visual também : https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+/*Usar no Body box-sizing: border-box já que ele é o elemento pai*/
 body{
   background-color: black;
   color:#F6F6F6;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-strong{
+.titulo-destaque{
   color:#99111E;
 }
 
 img{
   width: 450px;
-  height: 450px;
+  height: 350px;
   filter: grayscale(100%);
   border-radius: 10%;
-}
-
-.buttonEsquerda{
-  color: black;
-  background-color: #99111E;
-  width: 110px;
-  height: 40px;
-  border-radius: 3%;
-  
 }
