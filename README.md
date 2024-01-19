@@ -1,4 +1,4 @@
-<h1>Curso de HTML e CSS - Continuação do Aprendizado
+<h1>Curso de HTML e CSS - Continuação do Aprendizado</h1>
 
 <p>Dando sequência ao curso de HTML e CSS, é possível verificar a primeira parte do módulo por meio deste <a href="https://github.com/philippe-piu/HTML-E-CSS">link</a>. Agora, continuamos com a criação de uma página web, utilizando a ferramenta Figma e seguindo um design disponibilizado pelo curso da plataforma alura HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags.</p>
 
